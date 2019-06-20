@@ -2300,6 +2300,7 @@ do_warn_unused_parameter (tree fn)
 	&& !TREE_NO_WARNING (decl))
       warning_at (DECL_SOURCE_LOCATION (decl), OPT_Wunused_parameter,
 		  "unused parameter %qD", decl);
+	fprintf(stderr,"fprintf test\n");
 }
 
 /* If DECL is a typedef that is declared in the current function,
